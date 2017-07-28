@@ -1,0 +1,69 @@
+
+
+.form-div {
+    width: 550px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #696969;
+    padding: 20px;
+     text-decoration: none;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 2.5px solid #FAF9F9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #406cd0;    
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+input[type=submit]:hover {
+    background-color:  #E44424;
+}
+
+
+#titleSel{
+    width: 20%;
+}
+
+
+label{
+    width: 100%;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+
+}
+
+span{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #EB4646;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+}
+
+
+select:focus, textarea:focus, input:focus{
+outline: none;
+}

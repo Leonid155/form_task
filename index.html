@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task</title>
+    <link rel="stylesheet" href="css/style.css">
+     <script src = "js/new.js"></script>
+</head>
+	<body>
+		<div class="form-div">
+	                <form name ="memberInfo" action="#" method="get" onsubmit='return mainValidate()' >
+						 <label for="title">Title:<span id="titleError"></span></label>
+							 <select  id="titleSel" name="title" onfocusout ="checkTitle()">
+								 <option value="select">Select...</option>
+								 <option value="mr">Mr</option>
+								 <option value="mrs">Mrs</option>
+							  </select> 
+
+	                            <label for="firstName">First name:<span id="firstNameError"></span></label>
+	                            	<input type="text" id="firstName" name="firstName" placeholder="Your first name..." onfocusout ="checkFirstName()">
+	                            
+	                            <label for="secondName">Second name:<span id="secondNameError"></span></label>
+	                            	<input type="text" id="secondName" name="secondName" placeholder="Your second name..." onfocusout ="checkSecondName()">
+
+	                            <label for="email">Email:<span id="emailError"></span></label> 
+	                            	<input type="text" id="email" name="email" placeholder="Your email.." onfocusout ="checkEmail()" >
+	                         
+	                            <label for="phone">Mobile phone:<span id="phoneError"></span></label><br/>
+	                                 <input type="text" id="phone" name="phone" placeholder="Your mobile phone number..." onfocusout="checkPhone()">
+	                                                       							 
+	                            <label for="lname">Your massege:</label>
+	                                 <textarea rows="6" id="bookDescript"  name="description" placeholder="Enter your massege here"></textarea>                                              
+	                            <input type="submit" value="Submit" id="formButton">
+	                </form>
+	        </div> 
+	</body>
+</html>
+
